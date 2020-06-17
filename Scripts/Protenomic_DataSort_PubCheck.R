@@ -301,7 +301,7 @@ Dat2.overlap2 <- Dat2.overlap1[Dat2.overlap1$MouseGeneName%in%HomoData.overPub.M
 Dat3.overlap2 <- Dat3.overlap1[Dat3.overlap1$MouseGeneName%in%HomoData.overPub.Muni==T,] 
 ## 1175-1175-1173, Gnas, Naca
 
-message("+----  Suggestions from Tina to remove some genes, due to multiple homologus with human       ----+")
+message("+----  Suggestions from Tina to remove some genes, due to multiple homologous with human       ----+")
 
 Filter.proteins <- read.csv(paste0(Data.dir, "/Filter_Proteins_List.csv"), header=T)
 
