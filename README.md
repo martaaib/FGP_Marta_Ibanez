@@ -9,7 +9,7 @@ ESCI-UPF and University of Cambridge (Department of Physiology, Development and 
 
 # Repository content:
 ## Readme:
-Information about the repository and foder's content.
+Information about the repository and folders content.
 
 ## Data:
 It contains some of the data used for the project:
@@ -17,7 +17,9 @@ It contains some of the data used for the project:
 
 - Pregnancy_Complications_Datasets.xlsx : datasets used for pregnancy complications.
 
-- GEO_Control_Human_GeneName_List.csv: list of genes found in the GEO control Human datasets.
+- GEO_Control_Human_GeneName_List.csv: list of genes from the GEO control Human datasets.
+
+- GEO_Control_Mouse_GeneName_List.csv: list of genes from the GEO control Mouse datasets.
 
 ## Results:
 - Genes_Overlapping_Secretome_Additional_Pregnancy_Complications.xlsx: list of genes found in the 319 potentially secreted protein list and in published data from the additional pregnancy complications (Preterm labour and Miscarriage)
@@ -35,6 +37,6 @@ It contains some of the data used for the project:
 
 - Overlap_Trophoblast_Organoid_final_Secretome_list_AND_GO_Enrichment_Analysis.R: Overlaying the human trophoblast organoid data with our 319 potentially secreted protein list and data visualisation with "ggplot2" for the GO enrichment analysis.
 
-- Protenomic_DataSort_PubCheck.R: Script used for the main peptidome analysis. It includes the three methodologues data (Conditioned medium, Sorted cells and cultured trophoblast). 
+- Protenomic_DataSort_PubCheck.R: Script used for the main peptidome analysis. It includes the three methodologies data (Conditioned medium, Sorted cells and cultured trophoblast). 
 
 - Workflow_Numbers_Check.R: Script used for the checking of the main workflow final numbers and overlaying the different methodologies at different stages. 
