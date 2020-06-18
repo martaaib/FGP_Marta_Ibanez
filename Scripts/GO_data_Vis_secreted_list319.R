@@ -1,9 +1,9 @@
 ## GO enrichment Data Visualisation 320 secreted genes list
-setwd("~/Desktop/Universitat/3_ANY/Lab/Lab_meeting")
+# setwd("~/Desktop/Universitat/3_ANY/Lab/Lab_meeting")
 library(ggplot2)
 
 ## Biological Process
-Bio_Process <- read.delim("Bio_Process_320_list.txt")
+Bio_Process <- read.delim("Bio_Process_319_list.txt")
 colnames(Bio_Process)[3] <- "Number.of.Genes"
 colnames(Bio_Process)[7] <- "P.value"
 Bio_Process <- Bio_Process[Bio_Process[7] < 0.05,]
@@ -12,7 +12,7 @@ ggplot(data = Bio_Process[4:14,], mapping = aes(x=reorder(GO.biological.process.
   xlab("Biological Process") + ylab("Number of genes") + geom_text(aes(label = Number.of.Genes), position = "stack") + ggtitle("GO terms Secreted Data") 
 
 ## Molecular Function
-Mol_Function <- read.delim("Mol_Func_320_List.txt")
+Mol_Function <- read.delim("Mol_Func_319_List.txt")
 colnames(Mol_Function)[3] <- "Number.of.Genes"
 colnames(Mol_Function)[7] <- "P.value"
 Mol_Function <- Mol_Function[Mol_Function[7] < 0.05,]
@@ -21,7 +21,7 @@ ggplot(data = Mol_Function[2:12,], mapping = aes(x=reorder(GO.molecular.function
   xlab("Molecular Function") + ylab("Number of genes") + geom_text(aes(label = Number.of.Genes), position = "stack") + ggtitle("GO terms Secreted Data")
 
 ## Cellular Component
-Cel_Comp <- read.delim("Cell_Comp_320_list.txt")
+Cel_Comp <- read.delim("Cell_Comp_319_list.txt")
 colnames(Cel_Comp)[3] <- "Number.of.Genes"
 colnames(Cel_Comp)[7] <- "P.value"
 Cel_Comp <- Cel_Comp[Cel_Comp[7] < 0.05,]
