@@ -17,6 +17,8 @@ It contains some of the data used for the project:
 
 - Pregnancy_Complications_Datasets.xlsx : datasets of pregnancy complications
 
+- GEO_Control_Human_GeneName_List.csv: list of genes found in the GEO control Human datasets.
+
 ## Results:
 - Genes_Overlapping_Secretome_Additional_Pregnancy_Complications.xlsx: list of genes found in the 319 potentially secreted protein list and in published data from the additional pregnancy complications (Preterm labour and Miscarriage)
 
