@@ -18,7 +18,7 @@ data1_900 <- read.csv("CTR_ans48_0003-Cultured_Mouse_Public_common_N901_G900_Psg
 data1_900_genes <- unique(data.frame(data1_900[,2]))
 colnames(data1_900_genes) <- "MouseGeneName"
 
-## Checking data2
+## Checking data2 ##
 data2 <- read.csv("CTR_ans48_0003-Sorted_Mouse_Human_Public_common_N655_G654_Naca_FilterPrl_24_03_20.csv")
 nrow(unique(data.frame(data2[,1]))) ## 654 genes
 data2_genes <- unique(data.frame(data2[,1]))
@@ -50,7 +50,6 @@ colnames(data3_1206_genes) <- "MouseGeneName"
 
 
 ## Data3 layer 2 Gene Level, 1177 ##
-
 specific_data3 <- read.csv("Data3_Mouse_Human_public_Munique_NP6_NG6.csv")
 specific_data3_genes <- specific_data3[,c(1,12)]
 
