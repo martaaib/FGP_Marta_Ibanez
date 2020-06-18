@@ -15,7 +15,7 @@ Information about the repository and foder's content.
 It contains some of the data used for the project:
 - Ensemble_MGI_NCBI_human_mouse_Homolog.csv : the homologs list.
 
-- Pregnancy_Complications_Datasets.xlsx : datasets of pregnancy complications
+- Pregnancy_Complications_Datasets.xlsx : datasets used for pregnancy complications.
 
 - GEO_Control_Human_GeneName_List.csv: list of genes found in the GEO control Human datasets.
 
