@@ -33,7 +33,7 @@ It contains some of the data used for the project:
 
 - GO_data_Vis_secreted_list319.R : Data visualisation with "ggplot2" R package for the GO enrichment analysis results (Biological process, Molecular function and Cellular component).
 
-- Main_PC_Overlapping_Check.R : overlaying the data of the pregnancy complications between each other.
+- Main_PC_Overlapping_Check.R : Checking the overlap between the main pregnancy complications (PE, GDM, LGA, SGA and IUGR).
 
 - Overlap_Trophoblast_Organoid_final_Secretome_list_AND_GO_Enrichment_Analysis.R: Overlaying the human trophoblast organoid data with our 319 potentially secreted protein list and data visualisation with "ggplot2" for the GO enrichment analysis.
 
