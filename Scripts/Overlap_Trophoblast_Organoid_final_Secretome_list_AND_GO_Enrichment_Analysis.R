@@ -25,6 +25,7 @@ TO_secretome <- merge(troph_org, secretome, by = "Gene Name")
 write.xlsx2(TO_secretome,"Overlap_Trophoblast_Organoid_Secretome.xlsx")
 
 
+
 ## Venn Diagram ##
 V <- venn.diagram(
   x = c(secretome, troph_org[,1]),

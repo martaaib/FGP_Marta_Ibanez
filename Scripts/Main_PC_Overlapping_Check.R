@@ -3,7 +3,7 @@ library(dplyr)
 library(readxl)
 
 ## ---Loading data of pregnancy complications--- ##
-# setwd("~/Desktop/Universitat/3_ANY/TFG/Pregnancy Complications") , setting working directory
+setwd("~/Desktop/Universitat/3_ANY/TFG/Pregnancy Complications") #, setting working directory
 PC <- read_excel("Main_Pregnancy_Complication_Overlap_Secretome.xlsx")
 
 ## ---Pregnancy complications genes--- ##
@@ -28,6 +28,7 @@ SGA_PE <- merge(PE, SGA, by = "Gene") # 17
 SGA_IUGR <- merge(SGA, IUGR, by = "Gene") # 6
 SGA_GDM <- merge(SGA, GDM, by = "Gene") # 10
 
+
 ## LGA ##
 LGA_PE <- merge(LGA, PE, by = "Gene") # 3
 LGA_IUGR <- merge(LGA, IUGR, by = "Gene") # 3
@@ -39,6 +40,8 @@ PE_IUGR <- merge(IUGR, PE, by = "Gene") # 22
 
 # GDM and IUGR ##
 GDM_IUGR <- merge(GDM, IUGR, by = "Gene") # 10
+
+
 
 
 
