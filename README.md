@@ -1,4 +1,4 @@
-# Defining the placental secretomme
+# Defining the placental secretome
 By: Marta Ibáñez
 
 Supervised by: Dr Amanda Sferruzzi-Perri, Dr Tina Napso and Dr Xiaohui Zhao.
