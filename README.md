@@ -5,7 +5,7 @@ Supervised by: Dr Amanda Sferruzzi-Perri, Dr Tina Napso and Dr Xiaohui Zhao.
 
 ESCI-UPF and University of Cambridge (Department of Physiology, Development and Neuroscience). Sferruzzi-Perri lab.
 
-## For more information, go to: https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri  (private until  publishing of the paper)
+## For more information, go to: https://github.com/CTR-BFX/2020-Napso_Sferruzi-Perri  (private until the paper is published)
 
 # Repository content:
 ## Readme:
