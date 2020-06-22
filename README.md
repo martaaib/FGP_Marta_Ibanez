@@ -13,13 +13,13 @@ Information about the repository and folders content.
 
 ## Data:
 It contains some of the data used for the project:
-- Ensemble_MGI_NCBI_human_mouse_Homolog.csv : the homologs list.
+- Ensemble_MGI_NCBI_human_mouse_Homolog_april_2020.csv: the homologs list.
 
-- Pregnancy_Complications_Datasets.xlsx : datasets used for pregnancy complications.
+- Pregnancy_Complications_Datasets.xlsx: datasets used for pregnancy complications.
 
-- GEO_Control_Human_GeneName_List.csv: list of genes from the GEO control Human datasets.
+- GEO_Control_Human_D8_N34673_GeneName_List.csv: list of genes from the GEO control Human datasets.
 
-- GEO_Control_Mouse_GeneName_List.csv: list of genes from the GEO control Mouse datasets.
+- GEO_Control_Mouse_D3_N47747_GeneName_List.csv: list of genes from the GEO control Mouse datasets.
 
 ## Results:
 - Genes_Overlapping_Secretome_Additional_Pregnancy_Complications.xlsx: list of genes found in the 319 potentially secreted protein list and in published data from the additional pregnancy complications (Preterm labour and Miscarriage)
